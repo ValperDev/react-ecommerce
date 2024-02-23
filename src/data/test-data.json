@@ -3,16 +3,40 @@
     "category": "men",
     "description": "Power your pursuit of perfection in a range truly designed for you. Oversized fits created specifically for that distinct bodybuilder shape and durable fabrics to support you through even your most brutal workouts, day after day. A new washed fabric meets our signature bold Power branding, giving you a look that’s just as comfortable in the gym as it is on the streets.",
     "handle": "power-washed-crew",
+    "newPrice": "56",
     "oldPrice": "70",
+    "productId": 1,
     "productTitle": "Power Washed Crew",
-    "newPrice": "56"
+    "reviews": [
+      {
+        "rating": 5,
+        "reviewContent": "This is the best",
+        "reviewDate": "2024/01/12",
+        "reviewId": "4f3-5ee-944",
+        "reviewTitle": "Power Review",
+        "reviewerName": "Josh",
+        "isRecommended": true
+      }
+    ]
   },
   {
     "category": "women",
     "description": "A piece you can pair with anything doesn’t have to be boring. That’s where your Fraction look steps in.",
     "handle": "fraction-oversized-t-shirt",
+    "newPrice": "28",
     "oldPrice": "35",
+    "productId": 2,
     "productTitle": "Fraction Oversized T-Shirt",
-    "newPrice": "28"
+    "reviews": [
+      {
+        "rating": 5,
+        "reviewContent": "This is the best",
+        "reviewDate": "2024/01/12",
+        "reviewId": "5f6-4ea-6a4",
+        "reviewTitle": "Fraction Review",
+        "reviewerName": "Nicole",
+        "isRecommended": false
+      }
+    ]
   }
 ]

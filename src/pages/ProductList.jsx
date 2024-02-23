@@ -7,7 +7,7 @@ export default function AllProducts() {
       <ul>
         {testData.map(product => (
           <ProductCard 
-            key={product.handle}
+            key={product.productId}
             handle={product.handle}
             title={product.productTitle}
             oldPrice={product.oldPrice}
