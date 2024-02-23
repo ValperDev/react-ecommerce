@@ -9,12 +9,6 @@ export default function Navbar() {
           <li>
             <NavLink to='/all-products'>All Products</NavLink>
           </li>
-          <li>
-            <NavLink to='/men'>Men</NavLink>
-          </li>
-          <li>
-            <NavLink to='/women'>Women</NavLink>
-          </li>
         </ul>
       </nav>
     </header>
