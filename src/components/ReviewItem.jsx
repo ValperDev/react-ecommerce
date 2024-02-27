@@ -1,16 +1,18 @@
+import "./ReviewItem.css";
+
 export default function ReviewItem({rating, reviewContent, reviewDate, reviewTitle, isRecommended, reviewerName}) {
   return(
-    <li>
-      <div>
-        <span>{reviewerName}</span>
-        {isRecommended ? <span>I recommend this product</span> : ""}
+    <li className="review-card">
+      <div className="reviewer-content">
+        <strong className="reviewer__name">{reviewerName}</strong>
+        {isRecommended ? <span className="reviewer__recommend">I recommend this product</span> : ""}
       </div>
-      <div>
-        <div>
-          <h2>{reviewTitle}</h2>
-          <span>{reviewDate}</span>
+      <div className="review-content">
+        <div className="review-top">
+          <h2 className="review__title">{reviewTitle}</h2>
+          <span className="review__name">{reviewDate}</span>
         </div>
-        <p>{reviewContent}</p>
+        <p className="review__content">{reviewContent}</p>
       </div>
     </li>
   );

@@ -1,3 +1,11 @@
+:root {
+  --black: #1c1c1c;
+  --light-black: #3f3f3f;
+  --light-gray: #cccccc;
+  --red: #d23d3d;
+  --white: #f7f7f7;
+}
+
 *,
 *::after,
 *::before {
@@ -45,4 +53,20 @@ img {
 
 ul {
   list-style: none;
+}
+
+.product-container {
+  max-width: 95rem;
+  margin-inline: auto;
+}
+
+.reviews-heading {
+  text-align: center;
+}
+
+.review-list {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  padding: 0 2em;
 }
