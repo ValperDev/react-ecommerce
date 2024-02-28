@@ -32,10 +32,22 @@
   cursor: pointer;
   color: var(--white);
   display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
   gap: .5em;
   align-items: center;
+  letter-spacing: .1em;
   padding: .8em 2.5em;
   text-transform: uppercase;
+  transition: opacity 150ms ease-in-out;
+  -webkit-transition: opacity 150ms ease-in-out;
+  -moz-transition: opacity 150ms ease-in-out;
+  -ms-transition: opacity 150ms ease-in-out;
+  -o-transition: opacity 150ms ease-in-out;
+}
+
+.product__add-button:hover {
+  opacity: .8;
 }
 
 .product__description {
