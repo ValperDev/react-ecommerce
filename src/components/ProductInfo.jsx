@@ -1,10 +1,12 @@
 import "./ProductInfo.css";
 import Cart from "./icons/Cart";
 
-export default function ProductInfo({productTitle, description, newPrice, oldPrice}) {
+export default function ProductInfo({productTitle, description, productImage, newPrice, oldPrice}) {
   return (
     <div className="product-content">
-      <div className="product__image"></div>
+      <div className="product__image">
+        <img src={productImage} alt="" />
+      </div>
       <div className="product__meta">
         <h1 className="product__title">{productTitle}</h1>
         <div className="product__price">

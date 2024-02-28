@@ -8,11 +8,12 @@ export default function Product() {
   const findProduct = (handle) => {
     return testData.find(product => product.handle === handle);
   }
-  const { description, oldPrice, productTitle, newPrice, reviews } = findProduct(handle);
+  const { description, productImage, oldPrice, productTitle, newPrice, reviews } = findProduct(handle);
   return(
     <section className="product-container">
       <ProductInfo
         description={description}
+        productImage={productImage}
         oldPrice={oldPrice}
         productTitle={productTitle}
         newPrice={newPrice}/>

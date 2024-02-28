@@ -6,6 +6,7 @@
     "newPrice": "56",
     "oldPrice": "70",
     "productId": 1,
+    "productImage": "../src/assets/product-images/power-washed-crew-product.jpg",
     "productTitle": "Power Washed Crew",
     "reviews": [
       {
@@ -26,6 +27,7 @@
     "newPrice": "28",
     "oldPrice": "35",
     "productId": 2,
+    "productImage": "../src/assets/product-images/fraction-oversized-t-shirt-product.jpg",
     "productTitle": "Fraction Oversized T-Shirt",
     "reviews": [
       {
