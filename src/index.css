@@ -1,9 +1,13 @@
 :root {
   --black: #1c1c1c;
+  --heading-font: "Poppins";
+  --paragraph-font: "Open Sans";
+  --fallback-font: sans-serif;
   --light-black: #3f3f3f;
   --light-gray: #cccccc;
   --red: #d23d3d;
   --white: #f7f7f7;
+  --small-screen: 780px;
 }
 
 *,
@@ -37,13 +41,13 @@ a {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--paragraph-font), var(--fallback-font);
   min-height: 100vh;
 }
 
 h1,
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font), var(--fallback-font);
 }
 
 img {
@@ -68,6 +72,5 @@ ul {
 
 .review-list {
   display: flex;
-  gap: 1em;
   flex-direction: column;
 }

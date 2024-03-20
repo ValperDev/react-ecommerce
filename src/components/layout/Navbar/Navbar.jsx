@@ -16,12 +16,6 @@ export default function Navbar() {
             <li className="navbar__item">
               <NavLink className="navbar__link" to='/all-products'>All Products</NavLink>
             </li>
-            <li className="navbar__item">
-              <NavLink className="navbar__link" to='/women'>Men</NavLink>
-            </li>
-            <li className="navbar__item">
-              <NavLink className="navbar__link" to='/men'>Women</NavLink>
-            </li>
           </ul>
         </nav>
       </div>

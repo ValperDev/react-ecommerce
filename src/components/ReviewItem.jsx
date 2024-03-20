@@ -2,6 +2,12 @@ import "./ReviewItem.css";
 import Star from "./icons/Star";
 
 export default function ReviewItem({rating, reviewContent, reviewDate, reviewTitle, isRecommended, reviewerName}) {
+  
+  const stars = [];
+  for (let i = 0; i < rating; i++) {
+    stars.push(<Star key={i} />);
+  }
+
   return(
     <li className="review-card">
       <div className="reviewer-content">
@@ -10,11 +16,11 @@ export default function ReviewItem({rating, reviewContent, reviewDate, reviewTit
       </div>
       <div className="review-content">
         <div className="stars-container">
-          <Star fill={`--yellow`}/>
+          {stars}
         </div>
         <div className="review-top">
-          <h2 className="review__title">{reviewTitle}</h2>
-          <span className="review__name">{reviewDate}</span>
+          <div className="review__title">{reviewTitle}</div>
+          <span className="review__date">{reviewDate}</span>
         </div>
         <p className="review__content">{reviewContent}</p>
       </div>

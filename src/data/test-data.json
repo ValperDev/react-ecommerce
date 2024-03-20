@@ -10,12 +10,21 @@
     "productTitle": "Power Washed Crew",
     "reviews": [
       {
-        "rating": 5,
+        "rating": 4,
         "reviewContent": "This is the best",
-        "reviewDate": "2024/01/12",
+        "reviewDate": "2024/03/21",
         "reviewId": "4f3-5ee-944",
         "reviewTitle": "Power Review",
         "reviewerName": "Josh",
+        "isRecommended": true
+      },
+      {
+        "rating": 5,
+        "reviewContent": "It’s a perfect fit for me, very comfortable. Runs just a bit small so size up if you need to. I’m 5’ 10” 175lbs and have a medium. People definitely noticed at the gym…",
+        "reviewDate": "2024/03/12",
+        "reviewId": "4f3-5ee-944",
+        "reviewTitle": "Awesome",
+        "reviewerName": "Douglas",
         "isRecommended": true
       }
     ]
@@ -31,7 +40,7 @@
     "productTitle": "Fraction Oversized T-Shirt",
     "reviews": [
       {
-        "rating": 5,
+        "rating": 4,
         "reviewContent": "This is the best",
         "reviewDate": "2024/01/12",
         "reviewId": "5f6-4ea-6a4",
